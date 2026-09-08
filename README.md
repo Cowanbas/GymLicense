@@ -11,17 +11,18 @@ O intuito do aplicativo é ser o mais simples e leve possível, para que qualque
 
 # Imagens
 
+# # Imagens
 
 <p align="center">
-  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/1edf31be-32fb-4253-b281-7a3354278b5b" />
-  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/31266f66-d46e-4866-b305-ea47108b312b" />
-  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/77339ce6-62fb-4217-b605-60ed75cb6ecb" />
+  <img width="30%" alt="01 Geral" src="https://github.com/user-attachments/assets/7b91b3b1-8f2e-4abb-8a76-fb8dea2e1bb6" />
+  <img width="30%" alt="02 Treinos" src="https://github.com/user-attachments/assets/c8629d91-94f5-4a55-b094-5f4aa209740f" />
+  <img width="30%" alt="03 Constancia" src="https://github.com/user-attachments/assets/97aab9db-04b7-4c89-8286-12996a5faffd" />
 </p>
 
 <p align="center">
-  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/928b83de-9e3d-4b6a-a783-7e4436bcc8f2" />
-  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/b8c312a4-9beb-4102-b13a-27852d35d660" />
-  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/67fc104f-d9cc-4629-a39d-db2cfd854779" />
+  <img width="30%" alt="04 Historico" src="https://github.com/user-attachments/assets/decc8d80-162d-4f06-b8b0-f8d5a577676c" />
+  <img width="30%" alt="05 Templates" src="https://github.com/user-attachments/assets/e2098fc5-ad19-4e74-9081-63fbdb2ecd2e" />
+  <img width="30%" alt="07 Cronometro" src="https://github.com/user-attachments/assets/ea1e7a23-6c4a-4cbe-aa4c-3d7d04657187" />
 </p>
 
 *Sua ficha, sua rotina, sua disciplina, sua liberdade!!*
