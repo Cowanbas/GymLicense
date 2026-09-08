@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym - Sobre, Termos de Uso e Política de Privacidade</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: #1e1e1e;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            margin-bottom: 40px;
+        }
+
+        h1, h2, h3 {
+            color: #ffffff;
+            margin-top: 1.2em;
+            margin-bottom: 0.5em;
+        }
+
+        h1 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #f0f0f0;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #333;
+            margin: 40px 0;
+        }
+
+        .image-center {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .image-center img {
+            width: 30%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 6px;
+            border: 1px solid #333;
+            margin: 0 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+
+        .slogan {
+            text-align: center;
+            font-style: italic;
+            color: #aaa;
+            margin-top: 20px;
+        }
+
+        .legal-text {
+            font-size: 0.95em;
+            color: #ccc;
+        }
+
+        .legal-text p {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            font-size: 0.9em;
+            color: #888;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        /* Classes de controle de idioma via CSS (lang) */
+        .lang-en { display: none; }
+        .lang-pt { display: block; }
+
+        :lang(en) .lang-en { display: block; }
+        :lang(en) .lang-pt { display: none; }
+        :lang(pt) .lang-en { display: none; }
+        :lang(pt) .lang-pt { display: block; }
+    </style>
+    <script>
+        (function() {
+            const userLang = navigator.language || navigator.userLanguage || 'pt-BR';
+            if (!userLang.toLowerCase().startsWith('pt')) {
+                document.documentElement.lang = 'en';
+            }
+        })();
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- SEÇÃO: SOBRE -->
+        <div id="about-section">
+            <!-- Título Principal -->
+            <h1 class="lang-pt">Gym Aplicativo de Ficha de Treino</h1>
+            <h1 class="lang-en">Gym Workout Routine App</h1>
+            
+            <!-- Sobre -->
+            <h2 class="lang-pt">Sobre</h2>
+            <h2 class="lang-en">About</h2>
+            
+            <p class="lang-pt">Aplicativo para guardar fichas de treino e marcar a constância dos dias treinados, com design minimalista e sem anúncios. Desenvolvi esse aplicativo durante os meus dias frequentando a academia. Anteriormente, eu estava utilizando o calendário, porém queria algo mais simples e dinâmico.</p>
+            <p class="lang-en">An app to store workout routines and track training consistency, featuring a minimalist, ad-free design. I developed this app during my days going to the gym. Previously, I was using the calendar, but I wanted something simpler and more dynamic.</p>
+
+            <p class="lang-pt">O aplicativo inclui a função de criar fichas de treino (com os exercícios de sua escolha) e recursos que achei úteis, como mudar o treino para o próximo dia, permitindo alterar a programação diária de forma muito simples.</p>
+            <p class="lang-en">The app includes the feature to create workout routines (with the exercises of your choice) and helpful features like shifting a workout to the next day, making it very easy to modify your daily schedule.</p>
+
+            <p class="lang-pt">O treino que você marca como executado no dia atual será registrado no calendário. O treino do dia será marcado e só poderá ser alterado na aba do calendário. Um exemplo: se, no treino de quinta-feira, você marcar que foi executado com a ficha A e depois alterar para a ficha B (cujos treinos são outros), mesmo com essa alteração, no calendário ficará registrado o da ficha A que você marcou originalmente.</p>
+            <p class="lang-en">The workout you mark as completed for the current day will be recorded in the calendar. Today's workout will be marked and can only be changed in the calendar tab. For example: if on Thursday you mark that you completed routine A and later switch to routine B (which has different exercises), despite this change, the calendar will still record routine A as originally marked.</p>
+
+            <p class="lang-pt">Constância e gráficos: o aplicativo conta com um sistema de constância que é atualizado conforme o usuário vai marcando seus treinos concluídos. O sistema contabiliza os dias de segunda a domingo. Caso o usuário treine nos finais de semana, eles contam; se não for marcado nenhum treino nesses dias, eles são considerados dias de descanso e você não perderá a constância. O gráfico das últimas 16 semanas treinadas é atualizado de baixo para cima, começando na segunda e terminando no domingo, mostrando de forma geral quantos dias o usuário foi à academia ao longo das semanas.</p>
+            <p class="lang-en">Consistency and charts: the app features a consistency system that updates as the user checks off completed workouts. The system tracks days from Monday to Sunday. If the user trains on weekends, those count; if no workout is marked on those days, they are considered rest days and you will not lose consistency. The chart for the last 16 trained weeks updates from bottom to top, starting on Monday and ending on Sunday, showing a general overview of how many days the user went to the gym over the weeks.</p>
+
+            <p class="lang-pt">O intuito do aplicativo é ser o mais simples e leve possível, para que qualquer pessoa possa utilizá-lo da maneira que quiser, seguindo uma base minimalista e prática. Ele foi pensado para os usuários que já sabem montar ou já têm uma ficha de treino, porém se cansaram de aplicativos de academia complicados.</p>
+            <p class="lang-en">The purpose of the app is to be as simple and lightweight as possible, so anyone can use it however they want, following a minimalist and practical foundation. It was designed for users who already know how to build or already have a workout routine, but are tired of complicated gym apps.</p>
+
+            <p class="lang-pt">A maneira mais justa que encontrei de monetizar o aplicativo foi adicionar um sistema de expansão de fichas: o usuário tem duas gratuitas, porém, se quiser adicionar mais do que the permitirem, terá que pagar um valor simbólico de R$ 2,00.</p>
+            <p class="lang-en">The fairest way I found to monetize the app was to add a routine expansion system: the user gets two for free, but if they want to add more than that, they will need to pay a symbolic fee of R$ 2,00 (or equivalent regional pricing).</p>
+
+            <!-- Imagens -->
+            <h2 class="lang-pt">Imagens</h2>
+            <h2 class="lang-en">Screenshots</h2>
+            
+            <div class="image-center">
+                <img alt="image" src="https://github.com/user-attachments/assets/1edf31be-32fb-4253-b281-7a3354278b5b" />
+                <img alt="image" src="https://github.com/user-attachments/assets/31266f66-d46e-4866-b305-ea47108b312b" />
+                <img alt="image" src="https://github.com/user-attachments/assets/77339ce6-62fb-4217-b605-60ed75cb6ecb" />
+            </div>
+
+            <div class="image-center">
+                <img alt="image" src="https://github.com/user-attachments/assets/928b83de-9e3d-4b6a-a783-7e4436bcc8f2" />
+                <img alt="image" src="https://github.com/user-attachments/assets/b8c312a4-9beb-4102-b13a-27852d35d660" />
+                <img alt="image" src="https://github.com/user-attachments/assets/67fc104f-d9cc-4629-a39d-db2cfd854779" />
+            </div>
+
+            <p class="slogan lang-pt">Sua ficha, sua rotina, sua disciplina, sua liberdade!!</p>
+            <p class="slogan lang-en">Your routine, your schedule, your discipline, your freedom!!</p>
+        </div>
+
+        <hr> 
+
+        <!-- SEÇÃO: TERMOS DE USO -->
+        <div id="terms-section" class="legal-text">
+            <h1 class="lang-pt">Gym Termos de Uso e Licença / Software License Agreement</h1>
+            <h1 class="lang-en">Gym Software License Agreement / Termos de Uso e Licença</h1>
+            
+            <p class="lang-pt"><strong>IMPORTANTE: LEIA CUIDADOSAMENTE ANTES DE UTILIZAR ESTE APLICATIVO.</strong><br>
+            <em>(IMPORTANT: PLEASE READ CAREFULLY BEFORE USING THIS APPLICATION.)</em></p>
+            <p class="lang-en"><strong>IMPORTANT: PLEASE READ CAREFULLY BEFORE USING THIS APPLICATION.</strong><br>
+            <em>(LEIA CUIDADOSAMENTE ANTES DE UTILIZAR ESTE APLICATIVO.)</em></p>
+
+            <p class="lang-pt">Este Contrato de Licença de Software Proprietário ("Contrato") é um acordo legal entre você ("Usuário") e o Desenvolvedor ("Licenciante") para o aplicativo móvel Gym ("Software"). Ao instalar, copiar ou usar o Software de outra forma, você concorda em cumprir os termos deste Contrato.</p>
+            <p class="lang-en">This Proprietary Software License Agreement ("Agreement") is a legal agreement between you ("User") and the Developer ("Licensor") for the mobile application Gym ("Software"). By installing, copying, or otherwise using the Software, you agree to be bound by the terms of this Agreement.</p>
+
+            <h3 class="lang-pt">1. Concessão de Licença</h3>
+            <h3 class="lang-en">1. Grant of License</h3>
+            <p class="lang-pt">Sujeito aos termos e condições deste Contrato, o Licenciante concede ao Usuário uma licença pessoal, limitada, revogável, não exclusiva e intransferível para instalar e usar o Software estritamente para fins pessoais e não comerciais em um dispositivo compatível de propriedade ou controlado pelo Usuário.</p>
+            <p class="lang-en">Subject to the terms and conditions of this Agreement, Licensor grants User a personal, limited, revocable, non-exclusive, non-transferable license to install and use the Software strictly for personal, non-commercial purposes on a compatible device owned or controlled by User.</p>
+
+            <h3 class="lang-pt">2. Restrições e Proibições</h3>
+            <h3 class="lang-en">2. Restrictions and Prohibitions</h3>
+            <p class="lang-pt">O Usuário não deve, e não deve permitir que terceiros:</p>
+            <p class="lang-en">User shall not, and shall not permit any third party to:</p>
+            <ul>
+                <li class="lang-pt">(a) Fazer engenharia reversa, descompilar, desmontar ou tentar descobrir o código-fonte, código de objeto ou estrutura subjacente do Software.</li>
+                <li class="lang-en">(a) Reverse engineer, decompile, disassemble, or attempt to discover the source code, object code, or underlying structure of the Software.</li>
+                <li class="lang-pt">(b) Modificar, traduzir ou criar trabalhos derivados com base no Software.</li>
+                <li class="lang-en">(b) Modify, translate, or create derivative works based on the Software.</li>
+                <li class="lang-pt">(c) Alugar, arrendar, emprestar, vender, redistribuir, sublicenciar ou exibir publicamente o Software ou quaisquer binários dele. Apenas o Licenciante retém o direito exclusivo de distribuir o Software por meio de plataformas de distribuição oficiais (como a Google Play Store).</li>
+                <li class="lang-en">(c) Rent, lease, lend, sell, redistribute, sublicense, or publicly display the Software or any binaries thereof. Only the Licensor retains the exclusive right to distribute the Software via official distribution platforms (such as the Google Play Store).</li>
+                <li class="lang-pt">(d) Remover quaisquer avisos de propriedade, rótulos ou marcas do Software.</li>
+                <li class="lang-en">(d) Remove any proprietary notices, labels, or marks from the Software.</li>
+            </ul>
+
+            <h3 class="lang-pt">3. Compras no Aplicativo, Fichas e Limites de Uso</h3>
+            <h3 class="lang-en">3. In-App Purchases, Slots, and Usage Limits</h3>
+            <p class="lang-pt">O Software opera sob um modelo freemium com expansão permanente de capacidade:</p>
+            <p class="lang-en">The Software operates under a freemium model with permanent capacity expansion:</p>
+            <ul>
+                <li class="lang-pt">(a) A versão básica do Software concede ao Usuário até duas (2) fichas de treino gratuitas ("Fichas Gratuitas").</li>
+                <li class="lang-en">(a) The base version of the Software grants the User up to two (2) complimentary workout routine slots ("Free Slots").</li>
+                <li class="lang-pt">(b) Para criar e manter fichas de treino adicionais além do limite gratuito simultaneamente, o Usuário deve adquirir fichas adicionais permanentes (ao preço de R$ 2,00 por ficha adicional, sujeito a alterações).</li>
+                <li class="lang-en">(b) To create and maintain additional workout routines beyond the complimentary limit simultaneously, the User must purchase permanent additional slots (priced at R$ 2,00 per additional slot, subject to change).</li>
+                <li class="lang-pt">(c) Uma vez que uma ficha adicional é comprada, ela pertence ao Usuário permanentemente para uso dentro do Software. Se o Usuário excluir uma rotina que ocupa uma ficha comprada, a ficha permanece disponível para a criação de uma nova rotina sem custo adicional.</li>
+                <li class="lang-en">(c) Once an additional slot is purchased, it belongs to the User permanently for use within the Software. If the User deletes a routine occupying a purchased slot, the slot remains available for creating a new routine at no additional charge.</li>
+                <li class="lang-pt">(d) Todas as compras são processadas de forma segura por meio de sistemas de faturamento de plataformas oficiais (como o Google Play Billing) e não são reembolsáveis, exceto conforme exigido pela lei aplicável ou pelas políticas da Google Play Store.</li>
+                <li class="lang-en">(d) All purchases are processed securely through official platform billing systems (such as Google Play Billing) and are non-refundable, except as required by applicable law or Google Play Store policies.</li>
+            </ul>
+
+            <h3 class="lang-pt">4. Isenção de Garantias</h3>
+            <h3 class="lang-en">4. Disclaimer of Warranties</h3>
+            <p class="lang-pt">O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUMA HIPÓTESE O LICENCIANTE SERÁ RESPONSÁVEL POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRA RESPONSABILIDADE DECORRENTE DE, FORA OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO SOFTWARE.</p>
+            <p class="lang-en">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+            <h3 class="lang-pt">5. Isenção de Responsabilidade sobre Saúde e Exercício Físico</h3>
+            <h3 class="lang-en">5. Health and Physical Exercise Disclaimer</h3>
+            <p class="lang-pt">O Software serve como uma ferramenta organizacional para treinos físicos. O Usuário reconhece e concorda que o exercício físico traz riscos inerentes de lesão física, trauma ou complicações de saúde. O Usuário assume total responsabilidade por sua própria saúde física e segurança durante qualquer rotina de treino. O Licenciante não se responsabiliza por qualquer lesão pessoal, dano físico ou comprometimento de saúde decorrente do uso do Software. É fortemente recomendado consultar um médico qualificado antes de iniciar qualquer programa de exercícios.</p>
+            <p class="lang-en">The Software serves as an organizational tool for physical workouts. User acknowledges and agrees that physical exercise carries inherent risks of physical injury, trauma, or health complications. User assumes full responsibility for their own physical health and safety during any workout routine. Licensor shall not be liable for any personal injury, physical damage, or health impairment resulting from the use of the Software. It is strongly recommended to consult a qualified physician before starting any exercise regimen.</p>
+
+            <h3 class="lang-pt">6. Limitação de Responsabilidade</h3>
+            <h3 class="lang-en">6. Limitation of Liability</h3>
+            <p class="lang-pt">Na máxima extensão permitida pela lei aplicável, em nenhuma hipótese o Licenciante será responsável por quaisquer danos indiretos, incidentais, especiais, punitivos ou consequenciais de qualquer natureza (incluindo, sem limitação, perda de dados, interrupção de negócios ou lesão pessoal) decorrentes de ou relacionados ao uso ou incapacidade de usar o Software.</p>
+            <p class="lang-en">To the maximum extent permitted by applicable law, in no event shall Licensor be liable for any indirect, incidental, special, punitive, or consequential damages whatsoever (including, without limitation, data loss, business interruption, or personal injury) arising out of or related to the use or inability to use the Software.</p>
+
+            <h3 class="lang-pt">7. Legislação Aplicável</h3>
+            <h3 class="lang-en">7. Governing Law</h3>
+            <p class="lang-pt">Este Contrato será regido e interpretado de acordo com as leis da República Federativa do Brasil, sem considerar seus princípios de conflito de leis.</p>
+            <p class="lang-en">This Agreement shall be governed by and construed in accordance with the laws of the Federative Republic of Brazil, without regard to its conflict of law principles.</p>
+        </div>
+
+        <hr>
+
+        <!-- SEÇÃO: POLÍTICA DE PRIVACIDADE -->
+        <div id="privacy-section" class="legal-text">
+            <h1 class="lang-pt">Política de Privacidade para Gym</h1>
+            <h1 class="lang-en">Privacy Policy for Gym</h1>
+            
+            <p class="lang-pt"><strong>Data de Vigência:</strong> 24 de Agosto de 2026</p>
+            <p class="lang-en"><strong>Effective Date:</strong> August 24, 2026</p>
+
+            <p class="lang-pt">A Gym ("nós", "nosso" ou "nos") respeita a sua privacidade. Esta Política de Privacidade explica como lidamos com as informações no aplicativo móvel <strong>Gym</strong>.</p>
+            <p class="lang-en">Gym ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we handle information in the <strong>Gym</strong> mobile application.</p>
+
+            <h3 class="lang-pt">1. Não Coleta de Dados Pessoais</h3>
+            <h3 class="lang-en">1. No Collection of Personal Data</h3>
+            <p class="lang-pt">O aplicativo Gym foi projetado para funcionar de forma totalmente autônoma e local no seu dispositivo. <strong>Nós não coletamos, armazenamos, compartilhamos ou processamos nenhum tipo de dado pessoal ou de uso</strong> dos nossos usuários.</p>
+            <p class="lang-en">The Gym app is designed to function completely autonomously and locally on your device. <strong>We do not collect, store, share, or process any type of personal or usage data</strong> from our users.</p>
+            
+            <ul>
+                <li class="lang-pt"><strong>Armazenamento Local:</strong> Todas as fichas de treino, configurações e registros de constância criados por você são salvos exclusivamente no armazenamento interno do seu próprio aparelho. Nós não temos acesso a essas informações.</li>
+                <li class="lang-en"><strong>Local Storage:</strong> All workout routines, settings, and consistency records created by you are saved exclusively in the internal storage of your own device. We do not have access to this information.</li>
+                
+                <li class="lang-pt"><strong>Sem Rastreamento ou Terceiros:</strong> O aplicativo não utiliza ferramentas de análise (analytics), redes de anúncios, SDKs de terceiros ou serviços de rastreamento. Nenhuma informação é enviada para servidores externos.</li>
+                <li class="lang-en"><strong>No Tracking or Third Parties:</strong> The app does not use analytics tools, ad networks, third-party SDKs, or tracking services. No information is sent to external servers.</li>
+            </ul>
+
+            <h3 class="lang-pt">2. Privacidade de Crianças</h3>
+            <h3 class="lang-en">2. Children's Privacy</h3>
+            <p class="lang-pt">Como o aplicativo não coleta nenhum tipo de dado de nenhum usuário, ele é totalmente seguro para usuários de todas as idades, incluindo menores de 13 anos.</p>
+            <p class="lang-en">Since the application does not collect any type of data from any user, it is completely safe for users of all ages, including children under 13.</p>
+
+            <h3 class="lang-pt">3. Alterações a Esta Política de Privacidade</h3>
+            <h3 class="lang-en">3. Changes to This Privacy Policy</h3>
+            <p class="lang-pt">Podemos atualizar nossa Política de Privacidade periodicamente se houver mudanças nas funcionalidades do aplicativo. Qualquer alteração será publicada nesta mesma página.</p>
+            <p class="lang-en">We may update our Privacy Policy periodically if there are changes to the app's features. Any changes will be posted on this same page.</p>
+
+            <h3 class="lang-pt">4. Contato</h3>
+            <h3 class="lang-en">4. Contact</h3>
+            <p class="lang-pt">Se você tiver alguma dúvida sobre esta Política de Privacidade ou sobre o funcionamento do aplicativo, entre em contato conosco.</p>
+            <p class="lang-en">If you have any questions about this Privacy Policy or how the app works, please contact us.</p>
+        </div>
+
+    </div> 
+
+    <footer>
+        <p>&copy; Cowanbas all rights reserved.</p>
+    </footer>
+
+</body>
+</html>
