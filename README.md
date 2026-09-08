@@ -11,8 +11,6 @@ O intuito do aplicativo é ser o mais simples e leve possível, para que qualque
 
 # Imagens
 
-# # Imagens
-
 <p align="center">
   <img width="30%" alt="01 Geral" src="https://github.com/user-attachments/assets/7b91b3b1-8f2e-4abb-8a76-fb8dea2e1bb6" />
   <img width="30%" alt="02 Treinos" src="https://github.com/user-attachments/assets/c8629d91-94f5-4a55-b094-5f4aa209740f" />
