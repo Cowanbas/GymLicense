@@ -1,4 +1,4 @@
-# On
+# Application
 An ad-free, minimalist app for storing workout routines and tracking training consistency. I developed this app during my own time going to the gym. I used to rely on a standard calendar, but I wanted something simpler and more dynamic.
 
 The app allows you to create workout routines (using exercises of your choice) and includes features I found useful—such as the ability to shift a workout to the next day—making it very easy to adjust your daily schedule.
