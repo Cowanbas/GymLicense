@@ -9,8 +9,6 @@ Constância e gráficos: o aplicativo conta com um sistema de constância que é
 
 O intuito do aplicativo é ser o mais simples e leve possível, para que qualquer pessoa possa utilizá-lo da maneira que quiser, seguindo uma base minimalista e prática. Ele foi pensado para os usuários que já sabem montar ou já têm uma ficha de treino, porém se cansaram de aplicativos de academia complicados.
 
-A maneira mais justa que encontrei de monetizar o aplicativo foi adicionar um sistema de expansão de fichas: o usuário tem duas gratuitas, porém, se quiser adicionar mais do que isso, terá que pagar um valor simbólico de R$ 2,00.
-
 # Imagens
 
 
