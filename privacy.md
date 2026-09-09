@@ -1,6 +1,6 @@
 # Privacy Policy for Gymin
 
-**Effective Date:** August 24, 2026
+**Effective Date:** September 9, 2026
 
 Gymin ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by Gymin.
 
@@ -12,7 +12,8 @@ This Privacy Policy applies to our mobile application **Gymin**. By downloading,
 
 To provide a better experience while using our application, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
 
-* **Personal Data:** Depending on how you use Gymin, we may collect basic usage data, account credentials (if applicable), or preferences to enhance your workout experience.
+* **Personal Data:** Depending on how you use Gymin, we may collect basic usage data, account credentials (if applicable), or preferences to enhance your workout experience, as well as details regarding your subscription plans (including monthly, quarterly, and annual subscriptions).
+* **Subscription and Payment Data:** When you purchase a subscription (available on a monthly, quarterly, or annual basis), transaction and billing details are processed securely through third-party payment platforms in accordance with their respective terms.
 * **Log Data:** We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
 
 ---
@@ -37,4 +38,4 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 
 ## 5. Contact Us
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: kauanfonsecaruizcarvalho@gmail.com
