@@ -9,18 +9,4 @@ Consistency and charts: the app features a consistency tracker that updates as y
 
 The goal was to create an app that is as simple and lightweight as possible, allowing anyone to use it however they like while maintaining a minimalist, practical approach. It is designed for users who already know how to create a workout routine—or already have one—but have grown tired of overly complicated gym apps.
 
-# Imagens
-
-<p align="center">
-  <img width="30%" alt="01 Geral" src="https://github.com/user-attachments/assets/7b91b3b1-8f2e-4abb-8a76-fb8dea2e1bb6" />
-  <img width="30%" alt="02 Treinos" src="https://github.com/user-attachments/assets/c8629d91-94f5-4a55-b094-5f4aa209740f" />
-  <img width="30%" alt="03 Constancia" src="https://github.com/user-attachments/assets/97aab9db-04b7-4c89-8286-12996a5faffd" />
-</p>
-
-<p align="center">
-  <img width="30%" alt="04 Historico" src="https://github.com/user-attachments/assets/decc8d80-162d-4f06-b8b0-f8d5a577676c" />
-  <img width="30%" alt="05 Templates" src="https://github.com/user-attachments/assets/e2098fc5-ad19-4e74-9081-63fbdb2ecd2e" />
-  <img width="30%" alt="07 Cronometro" src="https://github.com/user-attachments/assets/ea1e7a23-6c4a-4cbe-aa4c-3d7d04657187" />
-</p>
-
 *Your workout plan, your routine, your discipline, your freedom!!*
